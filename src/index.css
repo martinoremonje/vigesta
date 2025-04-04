@@ -1,0 +1,23 @@
+@import "flowbite";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+  #root{/*en caso de usar react*/
+   overflow-x: hidden;
+  }
+
+  @layer components {
+    .whatsapp-grow-on-hover {
+      transition: transform 0.3s ease-in-out;
+    }
+    .whatsapp-grow-on-hover:hover {
+      transform: scale(1.1); /* Ajusta el factor de escala según lo desees */
+    }
+  }
