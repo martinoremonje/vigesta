@@ -103,7 +103,7 @@ const Carousel = ({ images }) => {
                 backgroundImage: `url(${image})`,
                 filter: 'brightness(60%)', // Ajusta el valor para oscurecer la imagen
               }}
-              alt={`Imagen ${index + 1}`}
+             
             />
           </div>
         ))}
